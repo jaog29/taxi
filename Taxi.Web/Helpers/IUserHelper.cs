@@ -17,7 +17,7 @@ namespace Taxi.Web.Helpers
 
         Task<bool> IsUserInRoleAsync(UserEntity user, string roleName);
 
-        //Task<SignInResult> LoginAsync(LoginViewModel model);
+        Task<SignInResult> LoginAsync(LoginViewModel model);
 
         Task LogoutAsync();
     }
