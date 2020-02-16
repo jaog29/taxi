@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Taxi.Common.Enums
+﻿namespace Taxi.Common.Enums
 {
-    public enum UserType    
+    public enum UserType
     {
         Admin,
         Driver,
