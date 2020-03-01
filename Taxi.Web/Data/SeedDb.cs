@@ -90,7 +90,7 @@ namespace Taxi.Web.Data
                             Qualification = 4.5f,
                             Source = "ITM Fraternidad",
                             Target = "ITM Robledo",
-                            Remarks = "Muy buen servicio",
+                            Remarks = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ut velit convallis, efficitur mi nec, sagittis enim. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse nibh libero, ultrices vel arcu sed, suscipit tincidunt augue. Curabitur et euismod tellus, at semper nisi. Sed blandit est vel imperdiet dapibus. Aenean convallis iaculis ex, a hendrerit eros consequat eget. Mauris quis orci semper, posuere elit non, egestas nisl. Nullam vitae est eget lorem aliquam consectetur sed sit amet mauris. Praesent ac mattis magna, non viverra velit. Donec luctus diam at mollis sollicitudin. Nam finibus odio ac ultrices pellentesque. Aenean auctor faucibus mi et lobortis. Curabitur aliquam eleifend sapien, et scelerisque urna porttitor id.",
                             User = user1
                         },
                         new TripEntity
@@ -100,7 +100,7 @@ namespace Taxi.Web.Data
                             Qualification = 4.8f,
                             Source = "ITM Robledo",
                             Target = "ITM Fraternidad",
-                            Remarks = "Conductor muy amable",
+                            Remarks = "Ut vel venenatis lacus, eget auctor metus. Nulla convallis, sapien at vestibulum luctus, velit nisl tempus erat, ut pulvinar nulla quam quis magna. Pellentesque libero massa, facilisis id nulla a, suscipit egestas dui. Nam in turpis convallis, varius massa quis, dignissim turpis. In vitae dui id enim imperdiet viverra at eu urna. Ut porta eros bibendum feugiat tincidunt. Donec facilisis, felis nec efficitur auctor, quam eros rutrum justo, nec sagittis enim sapien ac risus. Aenean consequat lacus vel ultrices luctus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Integer vel nisi dolor. Donec luctus elementum nisi, sit amet rhoncus erat efficitur eu.",
                             User = user1
                         }
                     }

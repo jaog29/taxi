@@ -9,6 +9,38 @@
 
             <!-- Parameters -->
             <x:String x:Key="UrlAPI">https://taxiwebjulian.azurewebsites.net/</x:String>
+            <!-- Colors -->
+            <Color x:Key="ColorBackgroud">#FFDD47</Color>
+            <Color x:Key="ColorPrimary">#0D040C</Color>
+            <Color x:Key="ColorSecondary">#6F7362</Color>
+            <Color x:Key="ColorDanger">#5982C0</Color>
+            <Color x:Key="ColorAccent">#0455BF</Color>
+            <Color x:Key="ColorFont">#0D040C</Color>
+            <Color x:Key="ColorFontInverse">#FFFFFF</Color>
+
+            <!-- Styles -->
+            <Style TargetType="Button">
+                <Setter Property="BackgroundColor" Value="{StaticResource ColorAccent}" />
+                <Setter Property="HorizontalOptions" Value="FillAndExpand" />
+                <Setter Property="CornerRadius" Value="10" />
+                <Setter Property="TextColor" Value="{StaticResource ColorFontInverse}" />
+            </Style>
+
+            <Style TargetType="Label">
+                <Setter Property="TextColor" Value="{StaticResource ColorFont}" />
+            </Style>
+
+            <Style TargetType="Entry">
+                <Setter Property="BackgroundColor" Value="{StaticResource ColorFontInverse}" />
+            </Style>
+
+            <Style x:Key="SecondaryButton" TargetType="Button">
+                <Setter Property="BackgroundColor" Value="{StaticResource ColorSecondary}" />
+            </Style>
+
+            <Style x:Key="DangerButton" TargetType="Button">
+                <Setter Property="BackgroundColor" Value="{StaticResource ColorDanger}" />
+            </Style>
 
         </ResourceDictionary>
 
